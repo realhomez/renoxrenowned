@@ -420,7 +420,7 @@
                         <label for="name">Name</label>
                         <input type="text" class="form-control" id="name" placeholder="Your Name" name="name">
                         <span id="nameError" class="error text-danger"></span>
-                    </div>
+                    </div>an
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" class="form-control" id="email" placeholder="Your Email" name="email">
@@ -442,9 +442,9 @@
 
 
 <section class="container-fluid key-featur-color text-light">
-    <div class="container">
-        <h2 class="mt-5 text-center floor-bold">Amenities</h2>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-sm-2 g-4 mt-5 justify-content-center">
+    <div class="pt-5">
+        <h2 class="text-center floor-bold">Amenities</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-sm-2 g-4 mt-3 justify-content-center">
 
             <div class="col align-items-center text-dark g-col-6 mb-5">
                 <div class="card animation-grow shadow border-0 h-100 p-4">
@@ -586,9 +586,9 @@
                         <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14008.53156150333!2d77.3631847!3d28.625779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1697802688477!5m2!1sen!2sin" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-                <div class="col col-12 col-lg-6 col-md-6 text-light align-self-center">
+                <div class="col col-12 col-lg-6 col-md-6 text-light align-self-center my-3">
                     <div class=" w-100  lists ">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled ">
                             <li class="color-red mb-1 font-my-size">
                                 <i class="fas fa-arrow-right"></i> <span class="text-light bolder">List item 1</span>
                             </li>
