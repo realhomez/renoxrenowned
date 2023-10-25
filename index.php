@@ -12,9 +12,10 @@
     
     <style>
         .dataimg{
-            background-image: url('image-006.jpg');
+            background-image: url('data.jpg');
             background-size: cover;
             background-repeat: no-repeat;
+            height: 400px;
             /* background-position: center center; */
             /* background-attachment: fixed; */
         }
@@ -39,27 +40,26 @@
                     <p class="col-lg-10 fs-4 text-center">This is demo tesing</p>
                 </div>
 
-                <div class="col-lg-3 col-12 col col-sm-6 d-block ">
+                <!-- <div class="col-lg-3 col-12 col col-sm-6 d-block ">
                     <form id="myForm" method="post" action="send.php" class="mx-auto d-block">
                         <h3 class="text-center">contact us</h3>
                         <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Your Name" name="name">
-                            <span id="nameError" class="error text-danger"></span>
+                           
+                            <input type="text" class="form-control mb-3" id="name" placeholder="Your Name" name="name">
+                             <span id="nameError" class="error text-danger"></span>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Your Email" name="email">
+                            
+                            <input type="email" class="form-control mb-3" id="email" placeholder="Your Email" name="email">
                             <span id="emailError" class="error text-danger"></span>
                         </div>
                         <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="text" class="form-control" id="phone" placeholder="Your Phone Number" name="number">
+                            <input type="text" class="form-control mb-3" id="phone" placeholder="Your Phone Number" name="number">
                             <span id="phoneError" class="error text-danger"></span>
                         </div>
                         <input value="submit" type="submit" class="btn btn-primary my-btn" name="submit">
                     </form>
-                </div>
+                </div> -->
 
             </div>
 
@@ -67,7 +67,7 @@
 </section>    
 
 <!-- overview section -->
-<section class="mt-5">
+<section class="mt-5" id="overview">
     <div class="container">
         <h2>About Gaur Yamuna City Mall</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.:</p>
@@ -111,8 +111,6 @@
         </table>
     </div>
 
- 
-  
     <div class="container py-5">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
 
@@ -167,7 +165,7 @@
 
 </section>
 
-<section class="container-fluid key-featur-color">
+<section class="container-fluid key-featur-color" id="keyfeautre">
     
     <div class="key-featur-color">
         <div class="container p-2">
@@ -246,7 +244,7 @@
 
 </section>
 
-<section class="container-fluid key-featur-color pb-5">
+<section class="container-fluid key-featur-color pb-5" id="floorplan">
 
     
     <div class=" mt-5">
@@ -441,7 +439,7 @@
 
 
 
-<section class="container-fluid key-featur-color text-light">
+<section class="container-fluid key-featur-color text-light" id="amenities">
     <div class="pt-5">
         <h2 class="text-center floor-bold">Amenities</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-sm-2 g-4 mt-3 justify-content-center">
@@ -576,7 +574,7 @@
 
 
 
-<section class="container-fluid key-featur-color">
+<section class="container-fluid key-featur-color" id="location">
     
         <div class="container p-2">
                 <h2 class="text-center text-light"> location advantage</h2>
