@@ -29,8 +29,7 @@ $mail = new PHPMailer(true);
 if(isset($_POST['submit']) || $_SERVER['REQUEST_METHOD'] === 'POST'){
     $_SESSION["name"] = $_POST['name']; 
     $_SESSION["email"] = $_POST['email']; 
-    $_SESSION["number"] = $_POST['number'];
-    $_SESSION['email_sent'] = "Your Msg Has Been Send";
+    $_SESSION["number"] = $_POST['number']; 
     echo "<pre>";
     print_r($_SESSION);
     echo "</pre>";
@@ -47,7 +46,7 @@ try {
 
     //Recipients
     $mail->setFrom('rahulsambhajimarathe@gmail.com', 'Mailer');
-    $mail->addAddress('ashifanwer2@gmail.com', 'From Rahul Marathe');     //Add a recipient
+    $mail->addAddress('rahulsambhajimarathe@gmail.com', 'From Rahul Marathe');     //Add a recipient
     // $mail->addAddress('ellen@example.com');               //Name is optional
     // $mail->addReplyTo('info@example.com', 'Information');
     // $mail->addCC('cc@example.com');
@@ -83,12 +82,9 @@ try {
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
-if(isset($_POST['currentUrl'])) {
-    header("Location: " . $_POST['currentUrl']);
-    exit;
-}
+
 
 ?>
-<!-- <script>
+<script>
     window.location = "index.php";
-</script> -->
+</script>

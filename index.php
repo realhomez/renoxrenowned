@@ -40,7 +40,7 @@
                 </div>
 
                 <div class="col-lg-3 col-12 col col-sm-6 d-block ">
-                    <form id="myForm" method="post" action="send1.php" class="mx-auto d-block">
+                    <form id="myForm" method="post" action="send.php" class="mx-auto d-block">
                         <h3 class="text-center">contact us</h3>
                         <div class="form-group">
                             <label for="name">Name</label>
@@ -414,7 +414,7 @@
         <div id="form-popup">
             <div class="popup-content">
                 <span class="close" id="close-button">&times;</span>
-                <form id="myForm">
+                <form id="myForm" method="post" action="popup.php" class="mx-auto d-block">
                     <h3 class="text-center">Contact Us</h3>
                     <div class="form-group">
                         <label for="name">Name</label>
