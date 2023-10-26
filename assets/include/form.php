@@ -5,11 +5,13 @@
         <input type="text" class="form-control" id="name" placeholder="Your Name" name="name">
         <span id="nameError" class="error text-danger"></span>
     </div>
+
     <div class="form-group">
         <label for="email">Email</label>
         <input type="email" class="form-control" id="email" placeholder="Your Email" name="email">
         <span id="emailError" class="error text-danger"></span>
     </div>
+
     <div class="form-group">
         <label for="phone">Phone Number</label>
         <input type="text" class="form-control" id="phone" placeholder="Your Phone Number" name="number">

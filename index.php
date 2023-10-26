@@ -81,32 +81,31 @@
         <table class="table table-striped table-hover border">
             <thead>
                 <tr>
-                    <th>#</th>
-                    <th>Name</th>
-                    <th>Age</th>
+                    <th>Project Name</th>
+                    <th>Renox</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>1</td>
-                    <td>John Doe</td>
-                    <td>30</td>
+                    <td>Department Status</td>
+                    <td>Under Construction</td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>Jane Smith</td>
-                    <td>25</td>
-                </tr>
-                    <tr>
-                    <td>3</td>
-                    <td>Bob Johnson</td>
-                    <td>40</td>
+                    <td>Rera Approved</td>
+                    <td>Yes</td>
                 </tr>
                 <tr>
-                    <td>4</td>
-                    <td>Alice Brown</td>
-                    <td>35</td>
+                    <td>Rera Number</td>
+                    <td>Comming Soon</td>
                 </tr>
+                <tr>
+                    <td>3041 SQFT</td>
+                    <td>4BHK</td>
+                </tr>
+                <tr>
+                    <td>Price per Sqft</td>
+                </tr>
+
             </tbody>
         </table>
     </div>
@@ -215,7 +214,7 @@
                         </ul>
                     </div>
                     
-                    <button class="btn-dsn get-price-offer btn-dsn get-price-offer d-block mx-auto mx-sm-0 ml-auto">Download Brochure</button>                  
+                    <button class="btn-dsn get-price-offer pointer btn-dsn get-price-offer pointer d-block mx-auto mx-sm-0 ml-auto">Download Brochure</button>                  
                 </div>
             </div>
         </div>
@@ -232,9 +231,8 @@
             <p>Investment in real estate is now something that has become a trending practice for many millennials in and around the nation. Noida, in particular, has developed into a prospering hub of realty properties. Different high-end developers have established their elite properties in Noida.
                 The Gaursons India’s property is the one that comes on this list and is the best option for investment.</p>
             <p>
-                There are several plus points of investing in this exclusive property Gaurs The Islands. First and foremost, the residential development is a spaciously structured set of units clubbed with lavish amenities and specifications. Secondly,  The Islands by Gaurs, , is bang on the borders of Asia’s most extended 18-hole Greg Norman Golf Course, which makes it quite famous and classy. Thirdly, this dwelling is amidst nature’s lap with 85% open green space. Gaurs The Islands is also a highly secured condominium with a 5-tier security system and 24*7 CCTV surveillance. The future returns of The Islands by Gaurs certainly qualify to be par excellence with the aforementioned pointers.
             </p>
-            <button class="buttons get-price-offer" >Book Now</button>
+            <button class="buttons get-price-offer pointer" >Book Now</button>
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-2">
             <img src="https://gaurstheislands.in/landing-page/img/anim-2.webp" class="w-100" alt="">
@@ -395,14 +393,14 @@
                     <td>4BHK</td>
                     <td>3681 - 4866 342 - 452</td>
                     <td>
-                        <div class="get-price-offer">Get price offer</div>
+                        <div class="get-price-offer pointer">Get price offer</div>
                     </td>
                 </tr>
                 <tr>
                     <td>5BHK</td>
                     <td>6011 to 560</td>
                     <td>
-                        <div class="get-price-offer">Get price offer</div>
+                        <div class="get-price-offer pointer">Get price offer</div>
                     </td>
                 </tr>
             </tbody>
@@ -418,7 +416,7 @@
                         <label for="name">Name</label>
                         <input type="text" class="form-control" id="name" placeholder="Your Name" name="name">
                         <span id="nameError" class="error text-danger"></span>
-                    </div>an
+                    </div> 
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" class="form-control" id="email" placeholder="Your Email" name="email">
@@ -621,7 +619,7 @@
                                 <i class="fas fa-arrow-right"></i> <span class="text-light bolder">List item 1</span>
                             </li>
                         </ul>
-                        <button class="btn-dsn get-price-offer btn-dsn get-price-offer d-block mx-auto mx-sm-0 ml-auto mb-2">Get visit site</button>
+                        <button class="btn-dsn get-price-offer pointer d-block mx-auto mx-sm-0 ml-auto mb-2">Get visit site</button>
                           
                     </div>
                 </div>
@@ -740,3 +738,9 @@
 <?php
     include "assets/include/footer.php";
 ?>
+
+<style>
+    .pointer{
+        cursor: cursor;
+    }
+</style>

@@ -29,24 +29,24 @@ $mail = new PHPMailer(true);
 if(isset($_POST['submit']) || $_SERVER['REQUEST_METHOD'] === 'POST'){
     $_SESSION["name"] = $_POST['name']; 
     $_SESSION["email"] = $_POST['email']; 
-    $_SESSION["number"] = $_POST['number']; 
-    echo "<pre>";
-    print_r($_SESSION);
-    echo "</pre>";
+    $_SESSION["number"] = $_POST['number'];
 }
 try {
     //Server settings
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'rahulsambhajimarathe@gmail.com';                     //SMTP username
-    $mail->Password   = 'dyrchqwccgvnxtnl';                               //SMTP password
+    $mail->Username   = 'realhomezleads@gmail.com';                     //SMTP username
+    $mail->Password   = 'ishcyihmgebiqtbd';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('rahulsambhajimarathe@gmail.com', 'Mailer');
-    $mail->addAddress('rahulsambhajimarathe@gmail.com', 'From Rahul Marathe');     //Add a recipient
+    $mail->setFrom('realhomezleads@gmail.com', 'Leads');
+    $mail->addAddress('realhomezleads@gmail.com', 'From Buyer');     //Add a recipient
+    $mail->addAddress('info@realhomez.org');            //Name is optional
+    $mail->addAddress('sales@realhomez.org');            //Name is optional
+    $mail->addAddress('support@realhomez.org');      //Add a recipient
     // $mail->addAddress('ellen@example.com');               //Name is optional
     // $mail->addReplyTo('info@example.com', 'Information');
     // $mail->addCC('cc@example.com');
