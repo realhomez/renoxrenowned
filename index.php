@@ -5,16 +5,20 @@
     <link rel="icon" href="assets/image/logo.webp" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Renox By Renowned: Luxury Residential Project in Noida Ext.</title>
+    <meta name="description" content="Renox Noida Extension is an ultra-luxury residential project in Noida Extension, Greater Noida. The project is being developed by the Renowned Group."/>
+    <link rel="canonical" href="https://renoxrenowned.com"/>
+   
     <?php
         include "assets/include/css.php";
     ?>
     
     <!-- <link rel="stylesheet" href="style.css"> -->
     
-    <title>Home page</title>
+    <title>Renox Renowned</title>
 </head>
-<body>
-<section class="content">
+<body style="background-color: #eceadf;">
+<section class="content container-fluid">
     <?php
         include "assets/include/header.php";
     ?>
@@ -23,12 +27,12 @@
 
      
 
-        <div class="container-fluid p-0">
-            <img src="assets/image/hero.jpg" class="w-100" alt="">
 
+</section>  
 
-        </div>
-</section>    
+<div class="container-fluid p-0">
+    <img src="assets/image/hero.jpg" class="w-100" alt="">
+</div>  
 
 <!-- overview section -->
 <section class="mt-5 mb-5" id="overview">
@@ -63,9 +67,9 @@
 
 </section>
 
-<section class="container-fluid key-featur-color" id="amenities">
+<section class="container-fluid " style="background-color:#2a160e;" id="amenities" >
     
-    <div class="key-featur-color">
+    <div class="" >
         <div class="container p-2">
                 <h2 class="text-center text-light"> Amenities</h2>
             <div class="row">
@@ -76,30 +80,30 @@
                     </div>
                     <div class="col col-12 col-lg-6 col-md-6 text-light mt-3 ">
                         <div class="lists ">
-                            <ul class="list-unstyled">
+                            <ul class="list-unstyled ">
                                 <li class="color-red mb-4 font-my-size">
-                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolder">Modular kitchen with branded fittings and fixtures</span>
+                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolders" style="font-size: 15px !important">Modular kitchen with branded fittings and fixtures</span>
                                 </li>
                                 <li class="color-red mb-4 font-my-size">
-                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolder">No mirror copy flat- all flats on the same floor are different</span>
+                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolders" style="font-size: 15px !important">No mirror copy flat- all flats on the same floor are different</span>
                                 </li>
                                 <li class="color-red mb-4 font-my-size">
-                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolder">The facade is full glass elevation unlike others with steel or other material</span>
+                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolders" style="font-size: 15px !important">The facade is full glass elevation unlike others with steel or other material</span>
                                 </li>
                                 <li class="color-red mb-4 font-my-size">
-                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolder">Vastu-compliant design</span>
+                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolders" style="font-size: 15px !important">Vastu-compliant design</span>
                                 </li>
                                 <li class="color-red mb-4 font-my-size">
-                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolder">Prime location in Noida Extension</span>
+                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolders" style="font-size: 15px !important">Prime location in Noida Extension</span>
                                 </li>
                                 <li class="color-red mb-4 font-my-size">
-                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolder">Prime location in Noida Extension</span>
+                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolders" style="font-size: 15px !important">Prime location in Noida Extension</span>
                                 </li>
                                 <li class="color-red mb-4 font-my-size">
-                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolder">2 KVA default power backup with 3 / 4 BHK</span>
+                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolders" style="font-size: 15px !important">2 KVA default power backup with 3 / 4 BHK</span>
                                 </li>
                                 <li class="color-red mb-4 font-my-size">
-                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolder">Only available site with 3 sides open</span>
+                                    <i class="fas fa-arrow-right"></i> <span class="text-light bolders" style="font-size: 15px !important">Only available site with 3 sides open</span>
                                 </li>
                                     <button class="btn-dsn get-price-offer pointer btn-dsn get-price-offer pointer d-block mx-auto mx-sm-0 ml-auto">Download Brochure</button>                  
 
@@ -180,7 +184,7 @@
 
 
 
-<section class="container-fluid key-featur-color text-light" id="keyfeautre">
+<section class="container-fluid text-light" id="keyfeautre" style="background-color:#2a160e;">
     <div class="pt-5">
         <h2 class="text-center floor-bold">RENOX - Key Features</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-sm-2 mt-3 justify-content-center">
@@ -224,36 +228,35 @@
         <h2 class="text-center floor-bold">Gallery</h2>
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-lg-4 col-sm-12 col-md-4 col-lg-4">
                     <img src="assets/image/Renox_Building_View-1.webp" class="w-100 mb-2" alt="">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4 col-sm-12 col-md-4 col-lg-4">
                     <img src="assets/image/Renox_Building_View-2.webp" class="w-100 mb-2" alt="">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4 col-sm-12 col-md-4 col-lg-4">
                     <img src="assets/image/Renox_Swiming_Pool_Area.webp" class="w-100 mb-2" alt="">
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-lg-4 col-sm-12 col-md-4 col-lg-4">
                     <img src="assets/image/Renox_Gym_Area.webp" class="w-100 mb-2" alt="">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4 col-sm-12 col-md-4 col-lg-4">
                     <img src="assets/image/Renox_Lavish_Balcony.webp" class="w-100 mb-2" alt="">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4 col-sm-12 col-md-4 col-lg-4">
                     <img src="assets/image/Renox_Party_Hall.webp" class="w-100 mb-2" alt="">
                 </div>
             </div>
 
         </div>
-</div>
-
     </div>
+
 </section>
 
 
-<section class="container-fluid key-featur-color" id="location">
+<section class="container-fluid" id="location" style="background-color:#2a160e;">
     
         <div class="container p-2">
                 <h2 class="text-center text-light"> location advantage</h2>
@@ -268,25 +271,25 @@
                     <div class=" w-100  lists ">
                         <ul class="list-unstyled ">
                             <li class="color-red mb-4 font-my-size">
-                                <i class="fas fa-arrow-right"></i> <span class="text-light bolder">2 minutes' drive away from the proposed metro connectivity</span>
+                                <i class="fas fa-arrow-right"></i> <span class="text-light bolders " style="font-size: 15px !important">2 minutes' drive away from the proposed metro connectivity</span>
                             </li>
                             <li class="color-red mb-4 font-my-size">
-                                <i class="fas fa-arrow-right"></i> <span class="text-light bolder">A 10-minute drive away from Gaur Chowk Noida Extension</span>
+                                <i class="fas fa-arrow-right"></i> <span class="text-light bolders " style="font-size: 15px !important">A 10-minute drive away from Gaur Chowk Noida Extension</span>
                             </li>
                             <li class="color-red mb-4 font-my-size">
-                                <i class="fas fa-arrow-right"></i> <span class="text-light bolder">A 15-minute drive from Sec 52 metro station</span>
+                                <i class="fas fa-arrow-right"></i> <span class="text-light bolders " style="font-size: 15px !important">A 15-minute drive from Sec 52 metro station</span>
                             </li>
                             <li class="color-red mb-4 font-my-size">
-                                <i class="fas fa-arrow-right"></i> <span class="text-light bolder">A 20-minute drive from NH 24 Ghaziabad</span>
+                                <i class="fas fa-arrow-right"></i> <span class="text-light bolders " style="font-size: 15px !important">A 20-minute drive from NH 24 Ghaziabad</span>
                             </li>
                             <li class="color-red mb-4 font-my-size">
-                                <i class="fas fa-arrow-right"></i> <span class="text-light bolder">Just 30 minutes from GIP</span>
+                                <i class="fas fa-arrow-right"></i> <span class="text-light bolders " style="font-size: 15px !important">Just 30 minutes from GIP</span>
                             </li>
                             <li class="color-red mb-4 font-my-size">
-                                <i class="fas fa-arrow-right"></i> <span class="text-light bolder">20 minutes to commute to Fortis Hospital Sec 62</span>
+                                <i class="fas fa-arrow-right"></i> <span class="text-light bolders " style="font-size: 15px !important">20 minutes to commute to Fortis Hospital Sec 62</span>
                             </li>
                             <li class="color-red mb-4 font-my-size">
-                                <i class="fas fa-arrow-right"></i> <span class="text-light bolder">23 km from Ghaziabad railway station</span>
+                                <i class="fas fa-arrow-right"></i> <span class="text-light bolders " style="font-size: 15px !important">23 km from Ghaziabad railway station</span>
                             </li>
                         </ul>
                         <button class="btn-dsn get-price-offer pointer d-block mx-auto mx-sm-0 ml-auto mb-2">Get visit site</button>

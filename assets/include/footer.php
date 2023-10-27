@@ -1,14 +1,15 @@
 
-<footer class="container-fluid bg-dark text-light text-center pt-3 pb-3 font-size-my">
+<footer class="container-fluid text-light text-center pt-3 pb-3 font-size-my" style="background-color: #2A160E;">
 © 2023 Disclaimer: This is not the developer's official website; it's an authorised partner's site for info and marketing. Logos and images are the developer's property. 
 </footer>
 <a href="https://wa.me/919910238600" class="wp" target="_blank">
     <i class="fab fa-whatsapp wp"></i>
 </a>
 
-<a href="" class="btn btn-primary scroll-to-top" role="button">
-    <i class="fas fa-arrow-up"></i>
-</a>
+    <a href="" class="scroll-to-top" role="button">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
 
 
 <script src="assets/js/jquery.js"></script>
